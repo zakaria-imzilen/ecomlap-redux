@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+}
+
+.prod {
+  transition: all 0.4s ease-in;
+}
+
+.prod:hover {
+  transition: all 0.4s ease-in;
+  transform: scale(1.03);
+  cursor: pointer;
+} 
+
+.prod img {
+  transition: all 0.2s ease-in;
+}
+
+.prod:hover img {
+  transition: all 0.2s ease-in;
+  transform: scale(1.05);
+}
